@@ -3,11 +3,11 @@
 <suite parallel="none" name="Failed suite [Default suite]">
   <test parallel="none" name="Default test(failed)">
     <classes>
-      <class name="TestClass">
+      <class name="testPackage.TestClass">
         <methods>
-          <include name="test"/>
+          <include name="testTwo"/>
         </methods>
-      </class> <!-- TestClass -->
+      </class> <!-- testPackage.TestClass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
